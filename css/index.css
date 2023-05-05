@@ -1,0 +1,271 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    background-color: #353a40;
+    height: 100px;
+    justify-content: space-around;
+}
+
+.logo-container,
+.links-container{
+    display: flex;
+    align-items: center;
+}
+
+.links-container{
+    width: 52%;
+    justify-content: space-between;
+    font-size: 1.2vw;
+}
+
+.img1{
+    width: 170px;
+}
+
+#conf{
+    color: white;
+    font-size: 25px;
+}
+
+#conferencia{
+    color: white;
+}
+
+#tickets{
+    color: #2aa143;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+} 
+
+.links-container div a{
+    color: #989792;
+}
+
+.img-bg{
+    color: white;
+    height: 750px;
+    background-image: linear-gradient(rgba(0,0,0,50%),rgba(0,0,0,50%)),url("/img/ba1.jpg");
+    background-position-y: 70%;
+    background-size: cover;
+}
+
+.title-overlay{
+    background-color: rgba(0, 0, 0, 0.6);;
+    text-align: right;
+    font-size: 19px;
+    width: 35%;
+    border-radius: 3%;
+    position: absolute;
+    right: 10%;
+    top: 40%;
+    padding: 20px;
+}
+
+.img-bg .title-overlay div h2{
+    font-size: 45px;
+    text-align: right;
+}
+
+.boton{
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    background-color: transparent;
+    border-color: white;
+}
+
+#boton-compra{
+    background-color: #29a744;
+    border-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+.card-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+}
+
+.card-flex{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card{
+    width: 20%;
+}
+
+.button-title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 0 0 20px;
+}
+
+.buttons-container{
+    border-radius: 5px;
+}
+
+
+
+
+
+
+.card-body{
+    text-align: start;
+}
+
+.button-color{
+    background-color: #16a2b8;
+}
+
+.button-bold{
+    font-weight: bold;
+}
+
+#button-color-negocios{
+    background-color: #6d747c;
+}
+
+#button-color-startups{
+    background-color: #dd3547;
+}
+
+.place-container{
+    display: flex;
+}
+
+.img-left{
+    width: 50%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.img-text{
+    color: white;
+    padding: 20px;
+    width: 50%;
+    background-color: #353b41;
+    font-size: 18px;
+}
+
+#boton-conoce{
+    padding: 5px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.middle-form{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    background-color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle-form p span{
+    border-bottom: dotted;
+    border-width: 1.9px;
+}
+
+form p{
+    color: rgb(128,128,128);
+}
+
+#name,
+#surname,
+#comentario{
+    width: 380px;
+    height: 35px;
+    border-radius: 3px;
+    margin: 9px;
+    border: 1px solid rgb(128,128,128,0.4);
+}
+
+#name,
+#surname,
+#comentario::placeholder{
+    padding-left: 10px;
+}
+
+#comentario{
+    width: 783px;
+    min-height: 140px;
+    max-height: 300px;
+}
+
+#comentario::placeholder{
+    font-size: 25px;
+}
+
+#boton-enviar{
+    background-color: #96c83f;
+    width: 790px;
+    border-color: transparent;
+    align-items: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    background: linear-gradient(to right,rgba(28,55,66,255),rgba(31,82,113,255));
+    height: 100px;
+}
+
+.links-footer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1vw;
+}
+
+.links-footer div{
+    width: 95px;
+}
