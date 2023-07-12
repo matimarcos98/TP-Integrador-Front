@@ -56,7 +56,7 @@ a{
 }
 
 .title-overlay{
-    background-color: rgba(0, 0, 0, 0.6);;
+    /* background-color: rgba(0, 0, 0, 0.6); */
     text-align: right;
     font-size: 19px;
     width: 35%;
@@ -149,7 +149,7 @@ a{
 }
 
 #button-color-negocios{
-    background-color: #6d747c;
+    background-color: #6b757e;
 }
 
 #button-color-startups{
